@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle de Metas</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Painel de Metas Diarias</h1>
+    </header>
+    <main>
+        <section>
+            <h2> Adicionar Meta ou Tarefa</h2>
+            <form class="formulario">
+                <label for="titulo">Nome da Meta</label>
+                <input type="text" id="titulo" placeholder="Digite o nome da Meta">
+                <label for="descricao">Descrição</label>
+                <textarea id="descricao" placeholder="Descrição"></textarea>
+                <label for="prioridade">Prioridade</label>
+                <select id="prioridade">
+                    <option value="baixa">Baixa</option>
+                    <option value="media">Média</option>
+                    <option value="alta">Alta</option>
+                </select>
+                <label for="data"> Data </label>
+                <input type="date" id="data">
+                <button id="adicionar" type="submit"> Adicionar Meta </button>
+            </form>
+            <div class="erro"></div>
+        </section>
+        <section id="lista">
+            <h2>Metas Adicionadas</h2>
+            <ul id="lista-metas"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Sarah Neves - 17 de Novembro de 2025 </p>
+    </footer>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>

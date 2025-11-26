@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(195, 231, 240);
+    color:rgb(0, 0, 0);
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.formulario{
+    display: flex;
+    padding: 40px;
+    border: 5px solid rgba(36, 35, 35, 0.705);
+    color:rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 700px;
+    height: 280px;
+    gap: 5px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 5px rgba(80, 78, 78, 0.521);
+    flex-direction: column;
+}
+
+input{
+    border-radius: 5px;
+    padding: 5px;
+    display:flex;
+}
+#prioridade{
+    border-radius: 5px;
+    padding: 5px;
+}
+#adicionar{
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: rgb(19, 121, 139);
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    padding: 10px;
+}
+#concluido{
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: rgb(19, 121, 139);
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    padding: 10px;
+}
+#remover{
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: rgba(19, 121, 139, 0.377);
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    padding: 10px;
+}
+#lista{
+    display: flex;
+    padding: 40px;
+    border: 5px solid rgba(36, 35, 35, 0.705);
+    color:rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 5px rgba(80, 78, 78, 0.521);
+    justify-content: center;
+}
+button:hover{
+    background-color: rgb(4, 74, 102);
+}
+footer{
+    color: #ffffff;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    main{
+        width: 200px;
+    }
+    h1{
+        text-align: center;
+    }
+    p{
+        font-size: 16px;
+    }
+}
