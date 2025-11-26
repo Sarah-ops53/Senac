@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark px-3">
+            <img class="logo" src="./imagens/alma.png">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div id="navbarNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="Bootstrap.html"> Início </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#lançamentos"> Lançamentos </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#destaques"> Destaques </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato"> Contato </a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#contato"> Carrinho </a></li> -->
+                    <div class="cart-icon" id="cartBtn">
+                        🛒 <span id="cartCount">0</span>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <button id="themeToggle" aria-pressed="false" aria-label="Ativar modo escuro">
+            Ativar modo escuro
+        </button>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="produto">
+                <img src="./imagens/Amor Fati.jpg">
+                <div class="descricao">
+
+                    <h2>Amor Fati - Volume único</h2>
+                    <p>por: V.S. VILELA</p>
+                    <div class="icones">
+                        <img src="./imagens/3estrelas (1).png">
+                    </div>
+
+                    <p>"Abby trabalha em uma academia de luta e, para levantar dinheiro, aceita lutar contra a campeã nacional de boxe, mesmo sendo apenas amadora. Ao mesmo tempo, sua vida pessoal se complica quando uma menina de 9 anos aparece na porta dizendo ser sua filha. Eva é advogada bem‑sucedida, tem tudo sob controle até o dia em que sua filha foge de casa e volta com a mãe biológica. Lily, a menina, decide buscar sua mãe biológica e desencadeia uma confusão na vida de Abby e Eva. “Amor Fati” é uma história sobre encontros e desencontros, escolhas, segundas chances, e sobretudo sobre família e pertencimento."</p>
+                </div>
+            </div>
+        </section>
+        <div class="card-preco">
+            <p class="preco"><strong>R$ 41,30</strong></p>
+            <input type="number" placeholder="qtd" value="1">
+            <button class="add-to-cart">comprar</button>
+        </div>
+        
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2025 AlmasLiterárias - Todos os direitos reservados</p>
+        <div>
+            <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </footer>
+    <!-- Modal do Carrinho -->
+    <div id="cartModal" class="cart-modal">
+        <div class="cart-content">
+            <h2>Seu Carrinho 🛒</h2>
+            <ul id="cartItems"></ul>
+            <p><strong>Total:</strong> <span id="cartTotal">R$ 0,00</span></p>
+            <button id="closeCart" class="close">x</button>
+            <button id="checkout">Finalizar Compra</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

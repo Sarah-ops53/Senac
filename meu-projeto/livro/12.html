@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark px-3">
+            <img class="logo" src="./imagens/alma.png">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div id="navbarNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="Bootstrap.html"> Início </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#lançamentos"> Lançamentos </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#destaques"> Destaques </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato"> Contato </a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#contato"> Carrinho </a></li> -->
+                    <div class="cart-icon" id="cartBtn">
+                        🛒 <span id="cartCount">0</span>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <button id="themeToggle" aria-pressed="false" aria-label="Ativar modo escuro">
+            Ativar modo escuro
+        </button>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="produto">
+                <img src="./imagens/gelato.jpg">
+                <div class="descricao">
+
+                    <h2>Amor e Gelato - Volume único</h2>
+                    <p>por: Jennar Evans</p>
+                    <div class="icones">
+                        <img src="./imagens/5estrelas (1).png">
+                    </div>
+
+                    <p>"> Lina acaba de perder a mãe e, em cumprimento ao último desejo dela, parte para a Itália — mais exatamente para a Toscana — para conhecer o pai que nunca viu. Inicialmente, não quer estar ali: o país parece apenas lindo no cartão‑postal, e Lina não faz questão de ficar longe de casa.
+
+> Então ela recebe um diário que sua mãe havia deixado, relatando um verão de juventude na Itália, com romances, amizades, arte e cafés escondidos. Com a ajuda de Ren, um charmoso garoto local, Lina parte numa aventura que atravessa cidades, sorveterias (gelato!), mistérios da família e antigas promessas não cumpridas.
+No fim, a jornada se transforma em algo muito mais profundo: sobre descobrir quem era sua mãe, entender suas próprias raízes e ainda abrir o coração para o amor, para novas amizades e para o lugar inesperado que pode chamar de lar."</p>
+                </div>
+            </div>
+        </section>
+        <div class="card-preco">
+            <p class="preco"><strong>R$ 99,00</strong></p>
+            <input type="number" placeholder="qtd" value="1">
+            <button class="add-to-cart">comprar</button>
+        </div>
+        
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2025 AlmasLiterárias - Todos os direitos reservados</p>
+        <div>
+            <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </footer>
+    <!-- Modal do Carrinho -->
+    <div id="cartModal" class="cart-modal">
+        <div class="cart-content">
+            <h2>Seu Carrinho 🛒</h2>
+            <ul id="cartItems"></ul>
+            <p><strong>Total:</strong> <span id="cartTotal">R$ 0,00</span></p>
+            <button id="closeCart" class="close">x</button>
+            <button id="checkout">Finalizar Compra</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark px-3">
+            <img class="logo" src="./imagens/alma.png" alt="logodo site" width="100px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+            <div id="navbarNav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#carouselFinancas"> Início </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#lançamentos"> Lançamentos </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#destaques"> Destaques </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato"> Contato </a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#contato"> Carrinho </a></li> -->
+                    <div class="cart-icon" id="cartBtn">
+                        🛒 <span id="cartCount">0</span>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <button id="themeToggle" aria-pressed="false" aria-label="Ativar modo escuro">
+            Ativar modo escuro
+        </button>
+    </header>
+    <section>
+        <div id="carouselFinancas" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item align-items-center justify-content-center active">
+                    <img src="./imagens/1.png" class="d-blok w-100" alt="Finanças pessoais">
+                </div>
+                <div class="carousel-item align-items-center justify-content-center">
+                    <img src="./imagens/2.png" class="d-blok w-100" alt="Investimentos">
+                </div>
+                <buton class="carousel-control-prev" type="button" data-bs-target="#carouselFinancas"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"> </span>
+                </buton>
+                <buton class="carousel-control-next" type="button" data-bs-target="#carouselFinancas"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </buton>
+            </div>
+    </section>
+    <main>
+        <section id="lançamentos" class="py-5">
+            <div class="container">
+                <h3 class="title-line">Lançamentos</h3>
+                <div id="carousel1" class="carousel slide desktop" data-bs-ride="carousel1">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-around">
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/não precisa.jpg">
+                                    <a href="./livro/livros.html"><h5>Sou Tudo Que Você (Não) Precisa</h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 99,00</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/pior ideias.jpg">
+                                    <a href="./livro/2.html"><h5>A Pior das Boas Ideias</h5></a>
+                                    <p> Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 74,90</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/Amor Fati.jpg">
+                                    <a href="./livro/3.html"><h5>Amor Fati</h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 41,30 </strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="carousel1mob" class="carousel slide mobile" data-bs-ride="carousel1mob">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-around">
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/não precisa.jpg">
+                                    <a href="./livro/livros.html"><h5>Sou Tudo Que Você (Não) Precisa</h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 99,00</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/pior ideias.jpg">
+                                    <a href="./livro/2.html"><h5>A Pior das Boas Ideias</h5></a>
+                                    <p> Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 74,90</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/Amor Fati.jpg">
+                                    <a href="./livro/3.html"><h5>Amor Fati</h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 41,30 </strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <button class="carousel-control-prev mobile" type="button" data-bs-target="#carousel1mob" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next mobile" type="button" data-bs-target="#carousel1mob" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        
+        <section id="destaques" class="py-5 ">
+            <div class="container">
+                <h3 class="title-line">
+                    Destaques
+                </h3>
+                <div id="carousel2" class="carousel desktop slide" data-bs-ride="carousel2">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-around">
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/acaba.jpg">
+                                    <a href="./livro/4.html"><h5> É Assim que Acaba</h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 35,72</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/aquiles.jpg">
+                                    <a href="./livro/5.html"><h5> Canção de Aquiles</h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 57,70</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/lado feio.jpg">
+                                    <a href="./livro/6.html"><h5> O Lado Feio do Amor</h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 39,80</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/principe.jpg">
+                                    <a href="./livro/81.html"><h5> O Pequeno Príncipe </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 39,68 </strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/cartas mortos.jpg">
+                                    <a href="./livro/7.html"><h5>Cartas de Amor aos Mortos</h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 59,99 </strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/fabricante.jpg">
+                                    <a href="./livro/9.html"><h5>Fabricante de Lágrimas </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 57,70</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/caso perdido.jpg">
+                                    <a href="./livro/10.html"><h5>Um Caso Perdido </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 39,80</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/sem esperança.jpg">
+                                    <a href="./livro/11.html"><h5>Sem Esperança </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 29,90</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev desktop" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next desktop" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <div id="carousel2mob" class="carousel slide mobile" data-bs-ride="carousel2mob">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-around">
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/acaba.jpg">
+                                    <a href="./livro/4.html"><h5> É Assim que Acaba</h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 35,72</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">                                
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/aquiles.jpg">
+                                    <a href="./livro/5.html"><h5> Canção de Aquiles</h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 57,70</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">                                
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/lado feio.jpg">
+                                    <a href="./livro/6.html"><h5> O Lado Feio do Amor</h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 39,80</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">                                
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/principe.jpg">
+                                    <a href="./livro/81.html"><h5> O Pequeno Príncipe </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 39,68 </strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">                                
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/cartas mortos.jpg">
+                                    <a href="./livro/7.html"><h5>Cartas de Amor aos Mortos</h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 59,99 </strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">                                
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/fabricante.jpg">
+                                    <a href="./livro/9.html"><h5>Fabricante de Lágrimas </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 57,70</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">                                
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/caso perdido.jpg">
+                                    <a href="./livro/10.html"><h5>Um Caso Perdido </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 39,80</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">                                
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/sem esperança.jpg">
+                                    <a href="./livro/11.html"><h5>Sem Esperança </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 29,90</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <button class="carousel-control-prev mobile" type="button" data-bs-target="#carousel2mob" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next mobile" type="button" data-bs-target="#carousel2mob" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        </section>
+        <section id="romances" class="py-5 ">
+            <div class="container">
+                <h3 class="title-line">
+                    Romances Leves e aconchegantes
+                </h3>
+                <div id="carousel3" class="carousel desktop slide" data-bs-ride="carousel3">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-around">
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/gelato.jpg">
+                                    <a href="./livro/12.html"><h5>Amor e Gelato</h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 32,70</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/imperfeitos.jpg">
+                                    <a href="./livro/13.html"><h5> Imperfeitos </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 19,00</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/escolha.jpg">
+                                    <a href="./livro/14.html"><h5> A Escolha </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$40,39</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/mil beijos.jpg">
+                                    <a href="./livro/15.html"><h5> Mil Beijos de Garoto </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$49,89</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/Vermelho, branco e sangue azul.jpg">
+                                    <a href="./livro/16.html"><h5> Vermelho, Branco e Sangue Azul </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 17,45</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/perfeicoes.jpg">
+                                    <a href="./livro/17.html"><h5> Todas as Perfeições </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 57,70</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/Sapatilhas de Gelo por Babi A_ Sette.jpg">
+                                    <a href="./livro/18.html"><h5> Sapatilhas de Gelo por Babi </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 57,70</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/culpa.jpg">
+                                    <a href="./livro/19.html"><h5> A Culpa é das Estrelas </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 57,70</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev desktop" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next desktop" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <div id="carousel3mob" class="carousel slide mobile" data-bs-ride="carousel3mob">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-around">
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/gelato.jpg">
+                                    <a href="./livro/12.html"><h5>Amor e Gelato</h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 32,70</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">                                
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/imperfeitos.jpg">
+                                    <a href="./livro/13.html"><h5> Imperfeitos </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 19,00</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">                                
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/escolha.jpg">
+                                    <a href="./livro/14.html"><h5> A Escolha </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$40,39</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">                                
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/mil beijos.jpg">
+                                    <a href="./livro/15.html"><h5> Mil Beijos de Garoto </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$49,89</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">                                
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/Vermelho, branco e sangue azul.jpg">
+                                    <a href="./livro/16.html"><h5> Vermelho, Branco e Sangue Azul </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 17,45</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">                                
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/perfeicoes.jpg">
+                                    <a href="./livro/17.html"><h5> Todas as Perfeições </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 57,70</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">                                
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/Sapatilhas de Gelo por Babi A_ Sette.jpg">
+                                    <a href="./livro/18.html"><h5> Sapatilhas de Gelo por Babi </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 57,70</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-around">                                
+                                <div class="card col-md-3" style="width: 18rem;">
+                                    <img src="./imagens/culpa.jpg">
+                                    <a href="./livro/19.html"><h5> A Culpa é das Estrelas </h5></a>
+                                    <p>Capa comum- edição em Português</p>
+                                    <div class="botao">
+                                        <p><strong>R$ 57,70</strong></p>
+                                        <button class="add-to-cart">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <button class="carousel-control-prev mobile" type="button" data-bs-target="#carousel3mob" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next mobile" type="button" data-bs-target="#carousel3mob" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+        </section>
+    </main>
+    <hr>
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <h2>Seu carrinho</h2>
+            <ul id="cartItems"></ul>
+            <p class="cart-total">Total: <span id="cartTotal">R$0,00</span></p>
+            <button id="closeCart">Fechar</button>
+            <button id="checkout">Finalizar compra</button>
+        </div>
+    </div>
+    <section id="contato">
+        <div class="infos-contato">
+            <h2>Contato</h2>
+            <ul>
+                <li>(99) 9 9999-9999</li>
+                <li>AlmasLiterarias@gmail.com</li>
+                <li>Brazlândia, DF</li>
+                <div class="icones">
+                    <img src="./imagens/facebook.png">
+                    <img src="./imagens/instagram.png">
+                    <img src="./imagens/linkedin.png">
+                </div>
+
+            </ul>
+        </div>
+        <form class="formulario">
+            <label>Nome</label>
+            <input type="text" placeholder="Insira seu nome">
+            <label>Email</label>
+            <input type="email" placeholder="Insira seu email">
+            <textarea placeholder="Mensagem"></textarea>
+            <input class="btn" type="submit" value="ENVIAR">
+        </form>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2025 AlmasLiterárias - Todos os direitos reservados</p>
+        <div>
+            <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js "></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
