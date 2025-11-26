@@ -100,3 +100,82 @@ O projeto deve ser publicado no GitHub dentro da pasta Senac.
 OBSERVAÇÃO:
     TODOS OS PROJETOS DEVEM SER SALVOS DENTRO DA PASTA SENAC.
 */
+
+const form = document.querySelector('#formulario');
+const campoPratos = form.querySelector('#pratos');
+const campoBebidas = form.querySelector('#bebidas');
+const adicionais = form.querySelectorAll('input[type="checkbox"]');
+const btnCalcular = form.querySelector('#calcular');
+const erro = document.querySelector('#erro');
+const resultado = document.querySelector('#resultado');
+
+const precos = {
+    pratos: {
+        strogonoff: 22.50,
+        galinhada: 24.98,
+        feijoada: 20.99
+    },
+    bebidas: {
+        agua: 4.00,
+        cafe: 5.00,
+        refrigerante: 8.00,
+        suco: 6.00
+    },
+    adicionais: {
+        sobremesa: 12.00,
+        molho: 5.00,
+        chopp:10.00
+    }
+};
+
+function calcular(e){
+    e.preventDefault();
+    const pratos = campoPratos.value;
+    const bebidas = campoBebidas.value;
+    let total = 0;
+
+    if(pratos === ""){
+        erro.textContent = "Escolha um prato válido.";
+        return
+    }
+
+    if (bebidas === "") {
+        erro.textContent = "Escolha uma bebida válida.";
+        return;
+    }
+
+    erro.textContent = "";
+    total += precos.pratos[pratos];
+    total += precos.bebidas[bebidas];
+    let extrasEscolhidos = [];
+    adicionais.forEach(item => {
+        if(item.checked){
+            total += precos.adicionais[item.value];
+            extrasEscolhidos.push(item.value);
+        }
+    });
+
+    resultado.innerHTML = `
+    <div class="pedidos">
+    <h2> Resumo do Pedido</h2>
+    <p><b> Prato: </b>${pratos}</p>
+    <p><b>Bebida: </b>${bebidas}</p>
+    <p><b>Adicionais: </b>${extrasEscolhidos.length > 0 ? extrasEscolhidos.join(',') : "Nenhum"}</p>
+    <p><b>Total:${total.toFixed(2).replace('.', ',')} </b> </p>
+    <button id="novoPedido"> Novo Pedido </button>
+    </div>
+    `;
+
+    form.classList.add('hidden');
+    resultado.classList.remove('hidden');
+    document.querySelector('#novoPedido').addEventListener('click', resetar);
+}
+
+function resetar(){
+    form.classList.remove('hidden');
+    resultado.classList.add('hidden');
+    form.reset();
+    resultado.innerHTML = "";
+}
+
+btnCalcular.addEventListener('click', calcular);

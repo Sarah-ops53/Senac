@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
 <body>
@@ -13,8 +13,8 @@
         <h1> Monte a sua Refeição Brasileirada </h1>
     </header>
     <main>
-        <section>
-            <form id="form">
+        <section id="form">
+            <form id="formulario">
                 <label for="pratos">Pratos</label>
                 <select name="pratos" id="pratos" required>
                     <option value=""></option>
@@ -28,6 +28,7 @@
                     <option value="agua">Água</option>
                     <option value="cafe">Café</option>
                     <option value="refrigerante">Refrigerante</option>
+                    <option value="suco">Suco</option>
                 </select>
                 <label>
                     <input type="checkbox" value="sobremesa">
@@ -38,15 +39,16 @@
                     Molho Extra
                 </label>
                 <label>
-                    <input type="checkbox" value="embalagem">
-                    Embalagem Premium
+                    <input type="checkbox" value="chopp">
+                    Chopp
                 </label>
 
-                <button id="button"> Calcular Total </button>
+                <button id="calcular"> Calcular Total </button>
             </form>
             <div id="erro"></div>
         </section>
-        <section id="resultado"></section>
+        <section id="resultado" class="hidden">
+        </section>
     </main>
     <footer>
         <p>&copy; Sarah Neves - 24 de Novembro de 2025 </p>

@@ -1,0 +1,103 @@
+.hidden {
+    display: none;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: #a4c4f3;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 5px;
+    width: 300px;
+    gap: 5px;
+}
+h1 {
+    font-family: times new roman;
+    display: flex;
+    justify-content: center;
+}
+
+section#form {
+    display: flex;
+    justify-content: center;
+}
+section#resultado {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #a4c4f3;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 5px;
+    width: 300px;
+}
+section#resultado.hidden{
+    display: none;
+}
+select {
+    border-radius: 5px;
+    height: 25px;
+}
+
+label {
+    border-radius: 10px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+button {
+    border-radius: 20px;
+    height: 30px;
+    font-family: arial;
+    color: white;
+    background-color: #0b0b59;
+}
+footer{
+    color: #ffffff;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+div#erro {
+    display: flex;
+    flex-direction: column-reverse;
+    color: red;
+}
+
+@media screen and (max-width: 768px){
+    /* main{
+        width: 200px;
+    } */
+    h1{
+        text-align: center;
+    }
+    p{
+        font-size: 16px;
+    }
+    section#form {
+    display: flex;
+    justify-content: center;
+}
+section#resultado {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 0px;
+    border-radius: 5px;
+    width: auto;
+    margin-bottom: 80px;
+}
+.pedidos {
+    margin: 20px;
+}
+section#resultado.hidden{
+    display: none;
+}
+}

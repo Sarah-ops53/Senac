@@ -89,8 +89,8 @@ function votar(e) {
     if (!favorito) {
         erro.innerText = "Selecione um personagem para votar";
         return;
-    }     
-    
+    }
+
     const personagens = [
         "Raymond Reddington", "Liz Keen", "Harold Cooper", "Dembe", "Ressler", "Aram", "Alina Park"];
 
@@ -107,7 +107,7 @@ function votar(e) {
 function atualizarRanking(){
     listaRanking.innerHTML = "";
 
-    const rankingOrganizado = Object.entries(votos).sort((a,b) => b[1] - a[1]);
+    const rankingOrganizado = Object.entries(personagens).sort((a,b) => b[1] - a[1]);
     const maiorVoto = rankingOrganizado[0][1];
 
     rankingOrganizado.forEach(personagem => {
@@ -120,4 +120,4 @@ function atualizarRanking(){
     })
 }
 
-btnAdd.addEventListener('click', );
+btnAdd.addEventListener('click', votar);
