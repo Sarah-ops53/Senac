@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sistema de Votação de Personagens </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> Sistema de Votação de Personagens </h1>
+    </header>
+    <main>
+        <section class="votacao">
+            <form class="formulario">
+                <h2> The Black List </h2>
+                <label for="favorito"> Qual é o seu personagem favorito? </label>
+                <select name="favorito" id="favorito" required>
+                    <option value="">Selecione um personagem</option>
+                    <option value="reddington"> Raymond Reddington </option>
+                    <option value="keen"> Liz Keen </option>
+                    <option value="cooper"> Harold Cooper </option>
+                    <option value="dembe"> Dembe </option>
+                    <option value="ressler"> Ressler </option>
+                    <option value="Aram"> Aram </option>
+                    <option value="Park"> Alina Park </option>
+                </select>
+                <button id="votar"> Votar </button>
+            </form>
+            <div id="erro"></div>
+        </section>
+        <section id="ranking">
+            <ul id="lista-ranking">
+
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Sarah Neves - 24 de Novembro de 2025 </p>
+    </footer>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>

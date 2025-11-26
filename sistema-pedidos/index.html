@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1> Monte a sua Refeição Brasileirada </h1>
+    </header>
+    <main>
+        <section>
+            <form id="form">
+                <label for="pratos">Pratos</label>
+                <select name="pratos" id="pratos" required>
+                    <option value=""></option>
+                    <option value="strogonoff">Strogonoff</option>
+                    <option value="feijoada">Feijoada</option>
+                    <option value="galinhada">Galinhada</option>
+                </select>
+                <label for="bebidas">Bebidas</label>
+                <select name="bebidas" id="bebidas" required>
+                    <option value=""></option>
+                    <option value="agua">Água</option>
+                    <option value="cafe">Café</option>
+                    <option value="refrigerante">Refrigerante</option>
+                </select>
+                <label>
+                    <input type="checkbox" value="sobremesa">
+                    Sobremesa
+                </label>
+                <label>
+                    <input type="checkbox" value="molho">
+                    Molho Extra
+                </label>
+                <label>
+                    <input type="checkbox" value="embalagem">
+                    Embalagem Premium
+                </label>
+
+                <button id="button"> Calcular Total </button>
+            </form>
+            <div id="erro"></div>
+        </section>
+        <section id="resultado"></section>
+    </main>
+    <footer>
+        <p>&copy; Sarah Neves - 24 de Novembro de 2025 </p>
+    </footer>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
