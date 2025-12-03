@@ -26,6 +26,7 @@ Feito para incentivar na hora dos estudos. O **dicas para estudo** tem como obje
 
 No terminal do VS Code digite:
     https://github.com/Sarah-ops53/Senac.git
+
 No GitHub Desktop
     No menu: File(arquivi) > Clone a repositor (Clonar repositório) > Selecione a aba URL, cole o link do repositório https://github.com/Sarah-ops53/Senac.git
 
