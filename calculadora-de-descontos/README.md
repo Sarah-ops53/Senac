@@ -2,8 +2,7 @@
 
 Este projeto é uma aplicação básica de uma **calculadora de descontos**. Ela calcula e registra os valores adicionados, levando em consideração a forma de pagamento do cliente. A página possui códigos simples — seu CSS, por exemplo — já que o seu principal objetivo é treinar o JS.
 
-![Imagem](./img/)
-![Imagem](./img/)
+![Imagem](./img/calculadora.png)
 
 ## Funcionalidades
 
