@@ -1,6 +1,6 @@
 # Loja - Almas Literárias
  
-**-*Continua*-**
+**#-*Continua*-#**
 
 ![Imagem](./img/pagina.png)
 
