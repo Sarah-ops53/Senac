@@ -3,7 +3,6 @@
 Desenvolvido de modo simples a **montagem de refeições**. Ele calcula, registra e refaz pedidos através da lista disponibilizada. Com o objetivo de praticar HTML, CSS, JS e colocar o GitHube em prática.
 
 ![Imagem](./img/primeiro.png)
-![Imagem](./img/segundo.png)
 ![Imagem](./img/terceiro.png)
 
 ## Funcionalidades
@@ -32,6 +31,7 @@ Desenvolvido de modo simples a **montagem de refeições**. Ele calcula, registr
 
 No terminal do VS Code digite:
     https://github.com/Sarah-ops53/Senac.git
+
 No GitHub Desktop
     No menu: File(arquivi) > Clone a repositor (Clonar repositório) > Selecione a aba URL, cole o link do repositório https://github.com/Sarah-ops53/Senac.git
 
@@ -41,10 +41,10 @@ Resumindo:
 
 ## Melhorias futuras
 
-- Deixar mais bem estilizado
+- Deixar melhor estilizado
 - Aumentar a seção de pedidos
 - Adicionar filtro de categorias
-- Possibilizar a opção modo escuro
+- Disponibilizar a opção modo escuro
 - Permitir o salvamento de dados
 - Ampliar os negócios para permitir um melhor acesso
 
