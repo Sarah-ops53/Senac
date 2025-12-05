@@ -31,6 +31,7 @@ Desenvolvido de modo simples a **montagem de refeições**. Ele calcula, registr
 
 No terminal do VS Code digite:
     https://github.com/Sarah-ops53/Senac.git
+
 No GitHub Desktop
     No menu: File(arquivi) > Clone a repositor (Clonar repositório) > Selecione a aba URL, cole o link do repositório https://github.com/Sarah-ops53/Senac.git
 
@@ -40,7 +41,7 @@ Resumindo:
 
 ## Melhorias futuras
 
-- Deixar estilizado
+- Deixar melhor estilizado
 - Aumentar a seção de pedidos
 - Adicionar filtro de categorias
 - Disponibilizar a opção modo escuro
