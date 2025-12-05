@@ -1,22 +1,16 @@
-# Sistema de Pedidos
+# Formando um Calendário
 
-Desenvolvido de modo simples a **montagem de refeições**. Ele calcula, registra e refaz pedidos através da lista disponibilizada. Com o objetivo de praticar HTML, CSS, JS e colocar o GitHube em prática.
+Este trabalho informa a data e hora atual. Buscando trabalhar apenas com o JS, ele usa a função data.getDay para quem ainda não aprendeu. Seu objetivo é ensinar diferentes situações para aprendizes.
 
-![Imagem](./img/primeiro.png)
-![Imagem](./img/terceiro.png)
 
 ## Funcionalidades
 
-- Montar refeições
-- Calcular o total
-- Resumo dos pedidos
-- Validação de campos
-- Layout responsivo
+- Mostrar a data e hora real
+- Trabalhar com o JS, principalmte com o data.getDay
 
 ## Tecnologias utilizadas
 
 - HTML
-- CSS
 - JavaScript
 - GitHub
 - VS Code
@@ -41,12 +35,8 @@ Resumindo:
 
 ## Melhorias futuras
 
-- Deixar melhor estilizado
-- Aumentar a seção de pedidos
-- Adicionar filtro de categorias
-- Disponibilizar a opção modo escuro
-- Permitir o salvamento de dados
-- Ampliar os negócios para permitir um melhor acesso
+- Apresentar diferentes formas de realizar o trabalho
+- Por mais que seu objetivo é ensinar coisas novas sobre o JS, também poderíamos mostrar algumas formas de estilizar o CSS. 
 
 ## O que aprendi em toda a pasta do Senac
 
