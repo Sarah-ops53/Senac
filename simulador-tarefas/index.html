@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Simulador de Parcelas </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simulador de Tarefas</h1>
+    <div class="container">
+        <form id="formulario">
+            <label> Valor Total da Compra </label>
+            <input type="text" id="valor" placeholder="Digite o valor" raquired>
+
+            <label> Quantidade de Parcelas</label>
+            <input id="parcelas" type="number" min="1" max="12" required>
+            
+            <button type="submit"> Calcular </button>
+        </form>
+        <h2> Resultado </h2>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
