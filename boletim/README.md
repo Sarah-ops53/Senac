@@ -1,22 +1,16 @@
-# Sistema de Pedidos
+# Boletim
 
-Desenvolvido de modo simples a **montagem de refeições**. Ele calcula, registra e refaz pedidos através da lista disponibilizada. Com o objetivo de praticar HTML, CSS, JS e colocar o GitHube em prática.
-
-![Imagem](./img/primeiro.png)
-![Imagem](./img/terceiro.png)
+Este projeto é uma aplicação simples do JavaScript. Como o seu principal objetivo é auxiliar iniciantes que ainda não sabem mexer com o JS, ele não possui CSS e nem algo difícil. 
 
 ## Funcionalidades
 
-- Montar refeições
-- Calcular o total
-- Resumo dos pedidos
-- Validação de campos
-- Layout responsivo
+- Calcular a nota do aluno
+- Falar sua média
+- Notificar sua situação: reprovado ou não
 
 ## Tecnologias utilizadas
 
 - HTML
-- CSS
 - JavaScript
 - GitHub
 - VS Code
@@ -38,21 +32,6 @@ No GitHub Desktop
 Resumindo:
     Clonar é baixar o repositório completo usando Git;
     Muito utilizado em trabalhos/projetos reais.
-
-## Melhorias futuras
-
-- Deixar melhor estilizado
-- Aumentar a seção de pedidos
-- Adicionar filtro de categorias
-- Disponibilizar a opção modo escuro
-- Permitir o salvamento de dados
-- Ampliar os negócios para permitir um melhor acesso
-
-## O que aprendi em toda a pasta do Senac
-
-- Criar pedidos no JS
-- Organizar as minha pastas em um projeto real
-- Subir projetos no GitHub
 
 ## Autor
 
