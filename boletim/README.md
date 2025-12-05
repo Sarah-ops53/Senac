@@ -1,6 +1,6 @@
 # Boletim
 
-Este projeto é uma aplicação simples do JavaScript. Como o seu principal objetivo é auxiliar iniciantes que ainda não sabem mexer com o JS, ele não possui CSS e nem algo difícil. 
+Este projeto é uma aplicação simples do JavaScript. Como o seu principal objetivo é auxiliar iniciantes que ainda não sabem mexer com o JS ele não possui CSS e nem algo difícil. Perfeito para novatos na área.
 
 ## Funcionalidades
 
