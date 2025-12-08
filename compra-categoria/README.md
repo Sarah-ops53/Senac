@@ -1,22 +1,17 @@
-# Sistema de Pedidos
+# Categoria de Compras
 
-Desenvolvido de modo simples a **montagem de refeições**. Ele calcula, registra e refaz pedidos através da lista disponibilizada. Com o objetivo de praticar HTML, CSS, JS e colocar o GitHube em prática.
-
-![Imagem](./img/primeiro.png)
-![Imagem](./img/terceiro.png)
+Dando continuidade aos exercícios anteriores focados no JavaScript. Esse projeto tem o objetivo de fixar o conteudo que envolve contas, visto nas atividades passadas. Aplicando descontos quando os critérios s e encaixarem no pedido.
 
 ## Funcionalidades
 
-- Montar refeições
-- Calcular o total
-- Resumo dos pedidos
-- Validação de campos
-- Layout responsivo
+- Calcular o total da compra
+- Aplicar desconto quando necessário
+- Calcular o valor total a pagar
+- Resumir a compra
 
 ## Tecnologias utilizadas
 
 - HTML
-- CSS
 - JavaScript
 - GitHub
 - VS Code
@@ -39,20 +34,9 @@ Resumindo:
     Clonar é baixar o repositório completo usando Git;
     Muito utilizado em trabalhos/projetos reais.
 
-## Melhorias futuras
+## O que aprendi
 
-- Deixar melhor estilizado
-- Aumentar a seção de pedidos
-- Adicionar filtro de categorias
-- Disponibilizar a opção modo escuro
-- Permitir o salvamento de dados
-- Ampliar os negócios para permitir um melhor acesso
-
-## O que aprendi em toda a pasta do Senac
-
-- Criar pedidos no JS
-- Organizar as minha pastas em um projeto real
-- Subir projetos no GitHub
+- Reforçar o conteúdo visto no JS
 
 ## Autor
 
