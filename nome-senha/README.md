@@ -1,22 +1,15 @@
-# Sistema de Pedidos
+# Nome-Senha
 
-Desenvolvido de modo simples a **montagem de refeições**. Ele calcula, registra e refaz pedidos através da lista disponibilizada. Com o objetivo de praticar HTML, CSS, JS e colocar o GitHube em prática.
-
-![Imagem](./img/primeiro.png)
-![Imagem](./img/terceiro.png)
+Este projeto é uma confirmação básica de cadastros, envolvendo senhas já feitas. Não se utiliza aplicações no HTML, todo o texto é colocado no JavaScript.
 
 ## Funcionalidades
 
-- Montar refeições
-- Calcular o total
-- Resumo dos pedidos
-- Validação de campos
-- Layout responsivo
+- Confirmar cadastros já feitos
+- Aplicação de senhas para confirmações
 
 ## Tecnologias utilizadas
 
 - HTML
-- CSS
 - JavaScript
 - GitHub
 - VS Code
@@ -41,18 +34,11 @@ Resumindo:
 
 ## Melhorias futuras
 
-- Deixar melhor estilizado
-- Aumentar a seção de pedidos
-- Adicionar filtro de categorias
-- Disponibilizar a opção modo escuro
-- Permitir o salvamento de dados
-- Ampliar os negócios para permitir um melhor acesso
+- Aplicar recados
+  
+## O que aprendi
 
-## O que aprendi em toda a pasta do Senac
-
-- Criar pedidos no JS
-- Organizar as minha pastas em um projeto real
-- Subir projetos no GitHub
+- Códigos de cadastro já feitos
 
 ## Autor
 
