@@ -1,17 +1,12 @@
-# Sistema de Pedidos
+# Gerenciador de Tarefas
 
-Desenvolvido de modo simples a **montagem de refeições**. Ele calcula, registra e refaz pedidos através da lista disponibilizada. Com o objetivo de praticar HTML, CSS, JS e colocar o GitHube em prática.
-
-![Imagem](./img/primeiro.png)
-![Imagem](./img/terceiro.png)
+Este projeto trabalha tanto com o JS e HTML quanto com o CSS. Seu objetivo é criarc tarefas, separando-as segundo sua prioridade.
 
 ## Funcionalidades
 
-- Montar refeições
-- Calcular o total
-- Resumo dos pedidos
-- Validação de campos
-- Layout responsivo
+- Montar tarefas
+- Separar segundo sua prioridade
+- Responsivo
 
 ## Tecnologias utilizadas
 
@@ -41,16 +36,14 @@ Resumindo:
 
 ## Melhorias futuras
 
-- Deixar melhor estilizado
-- Aumentar a seção de pedidos
-- Adicionar filtro de categorias
-- Disponibilizar a opção modo escuro
-- Permitir o salvamento de dados
-- Ampliar os negócios para permitir um melhor acesso
+- Aprimorar a responsividade
+- Colocar modo escuro
+- Aperfeiçoar principalmente o CSS
 
-## O que aprendi em toda a pasta do Senac
+## O que aprendi
 
-- Criar pedidos no JS
+- Criar tarefas no JS
+- Utilizar CSS, HTML e JS em uma única página
 - Organizar as minha pastas em um projeto real
 - Subir projetos no GitHub
 
