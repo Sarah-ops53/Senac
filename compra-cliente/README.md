@@ -1,22 +1,18 @@
-# Sistema de Pedidos
+# Tipo de Cliente
 
-Desenvolvido de modo simples a **montagem de refeições**. Ele calcula, registra e refaz pedidos através da lista disponibilizada. Com o objetivo de praticar HTML, CSS, JS e colocar o GitHube em prática.
-
-![Imagem](./img/primeiro.png)
-![Imagem](./img/terceiro.png)
+Este projeto tem como objetivo determinar o tipo de cliente, aplicando desconto quando se encaixar nos critérios estabelecidos. Trabalhando apenas com o JavaScript, ele possui um código pequeno sem a necessidade de escrever textos no HTML.
 
 ## Funcionalidades
 
-- Montar refeições
-- Calcular o total
-- Resumo dos pedidos
-- Validação de campos
-- Layout responsivo
+- Fazer um resumo do pedido
+- Calcular o preço da compra
+- Mostrar o tipo de cliente
+- Aplicar desconto quando necessário
+- Calcular o valor total à pagar
 
 ## Tecnologias utilizadas
 
 - HTML
-- CSS
 - JavaScript
 - GitHub
 - VS Code
@@ -39,20 +35,11 @@ Resumindo:
     Clonar é baixar o repositório completo usando Git;
     Muito utilizado em trabalhos/projetos reais.
 
-## Melhorias futuras
-
-- Deixar melhor estilizado
-- Aumentar a seção de pedidos
-- Adicionar filtro de categorias
-- Disponibilizar a opção modo escuro
-- Permitir o salvamento de dados
-- Ampliar os negócios para permitir um melhor acesso
-
 ## O que aprendi em toda a pasta do Senac
 
-- Criar pedidos no JS
-- Organizar as minha pastas em um projeto real
-- Subir projetos no GitHub
+- A não precisar escrever no HTML
+- Aplicar um código pequeno no JS
+- Reforçar o que já foi estudado anteriormente
 
 ## Autor
 
