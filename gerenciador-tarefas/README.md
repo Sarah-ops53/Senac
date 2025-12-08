@@ -1,6 +1,6 @@
 # Gerenciador de Tarefas
 
-Este projeto trabalha tanto com o JS e HTML quanto com o CSS. Seu objetivo é criarc tarefas, separando-as segundo sua prioridade.
+Este projeto trabalha tanto com o JS e HTML quanto com o CSS. Seu objetivo é criar tarefas, separando-as segundo sua prioridade.
 
 ## Funcionalidades
 
