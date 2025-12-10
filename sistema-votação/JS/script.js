@@ -74,50 +74,87 @@ Utilizem tudo o que já aprendemos em aula com os outros exercícios e o trabalh
     OBSERVAÇÃO: TODOS OS PROJETOS SERÃO ENTREGUES EXCLUSIVAMENTE DENTRO DA PASTA SENAC
 */
 
-const form = document.querySelector('.formulario');
-const campofavorito = form.querySelector('#favorito');
-const btnAdd = form.querySelector('#votar');
-const erro = document.querySelector('#erro');
-const listaRanking = document.querySelector('#lista-ranking');
+// const form = document.querySelector('.formulario');
+// const campofavorito = form.querySelector('#favorito');
+// const btnAdd = form.querySelector('#votar');
+// const erro = document.querySelector('#erro');
+// const listaRanking = document.querySelector('#lista-ranking');
 
-function votar(e) {
-    e.preventDefault();
-    erro.innerText = "";
+// function votar(e) {
+//     e.preventDefault();
+//     erro.innerText = "";
 
-    const favorito = campofavorito.value;
+//     const favorito = campofavorito.value;
 
-    if (!favorito) {
-        erro.innerText = "Selecione um personagem para votar";
-        return;
-    }
+//     if (!favorito) {
+//         erro.innerText = "Selecione um personagem para votar";
+//         return;
+//     }
 
-    const personagens = [
-        "Raymond Reddington", "Liz Keen", "Harold Cooper", "Dembe", "Ressler", "Aram", "Alina Park"];
+//     const personagens = [
+//         "Raymond Reddington", "Liz Keen", "Harold Cooper", "Dembe", "Ressler", "Aram", "Alina Park"];
 
-    const votosIniciais = personagens.reduce((objetoAcumulador, personagem) => {
-        objetoAcumulador[personagem] = 0;
-        return objetoAcumulador;
-    });
+//     const votosIniciais = personagens.reduce((objetoAcumulador, personagem) => {
+//         objetoAcumulador[personagem] = 0;
+//         return objetoAcumulador;
+//     });
 
-    votosIniciais[personagens]++;
+//     votosIniciais[personagens]++;
 
-    atualizarRanking();
-}
+//     atualizarRanking();
+// }
+
+// function atualizarRanking(){
+//     listaRanking.innerHTML = "";
+
+//     const rankingOrganizado = Object.entries(personagens).sort((a,b) => b[1] - a[1]);
+//     const maiorVoto = rankingOrganizado[0][1];
+
+//     rankingOrganizado.forEach(personagem => {
+//         const li = document.createElement('li');
+//         li.textContent = `${personagem[0]} - ${personagem[1]} votos.`;
+//         if(personagem[1] === maiorVoto && maiorVoto !== 0){
+//             li.classList.add('lider');
+//         }
+//         listaRanking.appendChild(li);
+//     })
+// }
+
+// btnAdd.addEventListener('click', votar);
+
+const selecaoPersona = document.querySelector('#favorito');
+const btnVotar = document.querySelector('#votar');
+const rankingLista = document.querySelector('#lista-ranking');
+const msgErro = document.querySelector('#erro');
+
+const votos = { Raymond : 0 , Liz : 0 , Harold : 0 , Dembe: 0 , Ressler: 0 , Aram: 0 , Alina : 0 }
 
 function atualizarRanking(){
-    listaRanking.innerHTML = "";
-
-    const rankingOrganizado = Object.entries(personagens).sort((a,b) => b[1] - a[1]);
-    const maiorVoto = rankingOrganizado[0][1];
-
+    rankingLista.innerHTML = ""; 
+    const rankingOrganizado = Object.entries(votos).sort((a, b) => b[1] - a[1]); 
+    const maiorVoto = rankingOrganizado[0][1]; 
+    
     rankingOrganizado.forEach(personagem => {
         const li = document.createElement('li');
-        li.textContent = `${personagem[0]} - ${personagem[1]} votos.`;
+        li.textContent = `${personagem[0]} - ${personagem[1]} voto(s).`;
         if(personagem[1] === maiorVoto && maiorVoto !== 0){
             li.classList.add('lider');
         }
-        listaRanking.appendChild(li);
-    })
+        rankingLista.appendChild(li);
+    });
 }
 
-btnAdd.addEventListener('click', votar);
+
+function votar(e){
+    e.preventDefault(); 
+    const escolhido = selecaoPersona.value;
+    if (escolhido === ""){
+        msgErro.innerText = "Por favor, selecione um personagem antes de votar.";
+        return;
+    }
+    msgErro.textContent = ""; 
+    votos[escolhido]++; 
+    atualizarRanking(); 
+}
+btnVotar.addEventListener('click', votar);
+atualizarRanking();
