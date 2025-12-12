@@ -1,16 +1,16 @@
 # Loja - Almas Literárias
  
-**#-*Continua*-#**
+Este projeto é um site de livraria desenvolvido com o objetivo de facilitar a compra de livros online de forma segura, simples e rápida. Criado durante o módulo de Front-End do curso Técnico de Informática para Internet, ele foi construído utilizando HTML, CSS, JavaScript, designer responsivo e Bootstrap.
 
 ![Imagem](./img/pagina.png)
 
 ## Funcionalidades
 
-- Montar refeições
-- Calcular o total
-- Resumo dos pedidos
-- Validação de campos
-- Layout responsivo
+- Loja de livros online
+- Lançamentos
+- Famosos
+- Colocar no carrinho
+- Finalizar compra
 
 ## Tecnologias utilizadas
 
@@ -19,6 +19,7 @@
 - JavaScript
 - GitHub
 - VS Code
+- Bootstrap
 
 ## Como rodar
 
@@ -39,21 +40,27 @@ Resumindo:
 
 ## Melhorias futuras
 
-- Deixar estilizado
+- Melhorar estilização
 - Aumentar a seção de pedidos
 - Adicionar filtro de categorias
-- Disponibilizar a opção modo escuro
 - Permitir o salvamento de dados
 - Ampliar os negócios para permitir um melhor acesso
+- Colocar todos os cards em funcionalidade
+- Melhorar o carrinho
+- Completar a parte individual da compra de livros
 
-## O que aprendi em toda a pasta do Senac
+## O que aprendi
 
+- Utilizar o Bootstrap
+- Responsividade
+- Criar comandos
+- Ter conhecimento aprofundado de front-end
 - Criar pedidos no JS
 - Organizar as minha pastas em um projeto real
 - Subir projetos no GitHub
 
 ## Autor
 
-Desenvolvido por **Sarah Neves**
+Desenvolvido por **Sarah Neves, Maria Angélica e Julia Dias**
 
 Turma de Tecnologia em Informártica para Internet do Vespertivo - Senac DF
