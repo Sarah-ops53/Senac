@@ -1,6 +1,6 @@
 # Loja - Almas Literárias
  
-Este projeto tem a funcionalidade 
+Este projeto é um site de livraria desenvolvido com o objetivo de facilitar a compra de livros online de forma segura, simples e rápida. Criado durante o módulo de Front-End do curso Técnico de Informática para Internet, ele foi construído utilizando HTML, CSS, JavaScript, designer responsivo e Bootstrap.
 
 ![Imagem](./img/pagina.png)
 
@@ -11,7 +11,6 @@ Este projeto tem a funcionalidade
 - Famosos
 - Colocar no carrinho
 - Finalizar compra
-- 
 
 ## Tecnologias utilizadas
 
