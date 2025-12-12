@@ -1,13 +1,13 @@
-# Loja - Almas Literárias
+# 📚 Loja - Almas Literárias
  
-Este projeto é um site de livraria desenvolvido com o objetivo de facilitar a compra de livros online de forma segura, simples e rápida. Criado durante o módulo de Front-End do curso Técnico de Informática para Internet, ele foi construído utilizando HTML, CSS, JavaScript, designer responsivo e Bootstrap.
+Este projeto é um site de livraria desenvolvido com o objetivo de facilitar a compra de livros online de forma segura, simples e rápida. Criado durante o módulo de Front-End do curso Técnico de Informática para Internet, ele foi construído utilizando HTML, CSS, JavaScript, design responsivo e Bootstrap.
 
 ![Imagem](./imagens/inicio-1.png)
 ![Imagem](./imagens/inicio-2.png)
 ![Imagem](./imagens/inicio-3.png)
 ![Imagem](./imagens/inicio-dentro.png)
 
-## Funcionalidades
+## 🎭 Funcionalidades
 
 - Loja de livros online
 - Lançamentos
@@ -15,33 +15,32 @@ Este projeto é um site de livraria desenvolvido com o objetivo de facilitar a c
 - Colocar no carrinho
 - Finalizar compra
 
-## Tecnologias utilizadas
+## 🌐 Tecnologias utilizadas
 
 - HTML
 - CSS
 - JavaScript
-- GitHub
+- Git e GitHub
 - VS Code
 - Bootstrap
 
-## Como rodar
+## 📍 Como rodar
 
 1. Baixe o repositório (Clique no Botão "Code" > Download Zip)
 2. Extraia a Pasta
 3. Abra o arquivo index.html no navegador
 
-## Como clonar
+## 🧩 Como clonar
 
 No terminal do VS Code digite:
+
     https://github.com/Sarah-ops53/Senac.git
+    
 No GitHub Desktop
+
     No menu: File(arquivi) > Clone a repositor (Clonar repositório) > Selecione a aba URL, cole o link do repositório https://github.com/Sarah-ops53/Senac.git
 
-Resumindo:
-    Clonar é baixar o repositório completo usando Git;
-    Muito utilizado em trabalhos/projetos reais.
-
-## Melhorias futuras
+## 📌 Melhorias futuras
 
 - Melhorar estilização
 - Aumentar a seção de pedidos
@@ -52,17 +51,17 @@ Resumindo:
 - Melhorar o carrinho
 - Completar a parte individual da compra de livros
 
-## O que aprendi
+## 📜 O que aprendi
 
-- Utilizar o Bootstrap
+- Aprofundar no Bootstrap
 - Responsividade
 - Criar comandos
-- Ter conhecimento aprofundado de front-end
+- Ter conhecimento ampliado sobre front-end
 - Criar pedidos no JS
 - Organizar as minha pastas em um projeto real
 - Subir projetos no GitHub
 
-## Autor
+## 🎓 Autor
 
 Desenvolvido por **Sarah Neves, Maria Angélica e Julia Dias**
 
